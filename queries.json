@@ -1,0 +1,39 @@
+
+// Define start node as Alice
+
+LET start_user = "users/alice"
+
+LET start_user_doc = DOCUMENT("users/alice")
+
+// All people who is a friend of friend of Alice
+LET friends_of_friends = (
+  FOR p IN 2..2 ANY start_user GRAPH 'user_friend_user'
+    FILTER p.hometown == start_user_doc.hometown
+    FILTER p._key != start_user_doc._key
+    RETURN p
+)
+
+// All posts that match "hiking" in the ArangoSearch view
+LET hiking_posts = (
+  FOR post IN searchPost   // the View name
+    SEARCH PHRASE(post.text, "hiking", "text_en")
+    RETURN post
+)
+
+// Join the two lists via the wrote_post edges
+FOR fof IN friends_of_friends
+  FOR post IN hiking_posts
+
+    LET connection = (
+      FOR v IN 1..1 OUTBOUND fof wrote_post 
+        FILTER v._id == post._id
+        LIMIT 1
+        RETURN 1
+    )
+
+    FILTER LENGTH(connection) > 0
+
+    RETURN DISTINCT {
+      name: fof.username,
+      post: post.text
+    }

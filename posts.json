@@ -1,0 +1,24 @@
+[
+    {"_key": "post1", "text": "I absolutely love hiking in the mountains around Boulder. Best weekend ever!"},
+{"_key": "post2", "text": "Just finished a new data science project with Python and ArangoDB. So cool!"},
+{"_key": "post3", "text": "Thinking about my next big hike event. Maybe this weekend?"},
+{"_key": "post4", "text": "New York has the best pizza, no contest."},
+{"_key": "post5", "text": "Can't wait to go to the music festival in Austin next month."},
+{"_key": "post6", "text": "I don't understand why people like hiking. It's just walking uphill."},
+{"_key": "post7", "text": "Just deployed a new app on Kubernetes. What a nightmare."},
+{"_key": "post8", "text": "This new cafe in San Francisco has the best coffee."},
+{"_key": "post9", "text": "Trying to learn how graph databases work. It's fascinating."},
+{"_key": "post10", "text": "A good hike really clears the mind. I recommend it."},
+{"_key": "post11", "text": "Denver's art scene is really underrated."},
+{"_key": "post12", "text": "Why is JavaScript so complicated?"},
+{"_key": "post13", "text": "Running my first 10k in Austin this weekend!"},
+{"_key": "post14", "text": "Just saw a great new play on Broadway."},
+{"_key": "post15", "text": "My dog is the best hiking buddy."},
+{"_key": "post16", "text": "The Golden Gate Bridge is beautiful, but so cold."},
+{"_key": "post17", "text": "Finally, a weekend with no plans. Just going to relax."},
+{"_key": "post18", "text": "Trying to find a good new sci-fi book to read."},
+{"_key": "post19", "text": "This Boulder weather is wild. It was 70 degrees and now it's snowing."},
+{"_key": "post20", "text": "I think I'm a better programmer when I'm caffeinated."}
+]
+
+

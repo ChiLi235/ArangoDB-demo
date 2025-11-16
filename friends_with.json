@@ -1,0 +1,24 @@
+[
+    {"_from": "users/alice", "_to": "users/bob"},
+{"_from": "users/alice", "_to": "users/david"},
+{"_from": "users/alice", "_to": "users/eve"},
+{"_from": "users/bob", "_to": "users/charlie"},
+{"_from": "users/bob", "_to": "users/frank"},
+{"_from": "users/david", "_to": "users/heidi"},
+{"_from": "users/david", "_to": "users/ivan"},
+{"_from": "users/eve", "_to": "users/grace"},
+{"_from": "users/charlie", "_to": "users/peggy"},
+{"_key": "rel1", "_from": "users/frank", "_to": "users/judy"},
+{"_key": "rel2", "_from": "users/grace", "_to": "users/ken"},
+{"_key": "rel3", "_from": "users/heidi", "_to": "users/laura"},
+{"_key": "rel4", "_from": "users/ivan", "_to": "users/mallory"},
+{"_key":"rel5", "_from": "users/judy", "_to": "users/nate"},
+{"_key": "rel6", "_from": "users/ken", "_to": "users/olivia"},
+{"_key": "rel7", "_from": "users/laura", "_to": "users/peggy"},
+{"_key": "rel8", "_from": "users/mallory", "_to": "users/rupert"},
+{"_key": "rel9", "_from": "users/nate", "_to": "users/sybil"},
+{"_key": "rel10", "_from": "users/olivia", "_to": "users/trent"},
+{"_key": "rel11", "_from": "users/peggy", "_to": "users/victor"}
+]
+
+
