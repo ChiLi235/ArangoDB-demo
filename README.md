@@ -1,5 +1,5 @@
 # ArangoDB-demo
-It's for the COMP 533 project at Rice University
+A demo on how to use ArangoDB for regular tasks 
 
 ## Requirement
 Assume docker is installed on your local device. 
